@@ -2,7 +2,7 @@ Requirements:
 -------------------------
 Generic:
 
-* Dashd >=0.12.1.0
+* MonetaryUnit >=1.0.3.2
 * Python >=2.7
 * Twisted >=13.0.0
 * Zope.interface >=3.8.0
