@@ -14,6 +14,6 @@ MIN_TARGET = 0
 MAX_TARGET = 2**256//2**20 - 1
 PERSIST = True
 WORKER_PORT = 8963
-BOOTSTRAP_ADDRS = 'crypto.office-on-the.net p2p-spb.xyz'.split(' ')
+BOOTSTRAP_ADDRS = 'crypto.office-on-the.net p2p-spb.xyz 82.117.166.77'.split(' ')
 ANNOUNCE_CHANNEL = '#p2pool-mue'
 VERSION_CHECK = lambda v: v >= 120100
