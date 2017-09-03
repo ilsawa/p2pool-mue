@@ -14,6 +14,6 @@ MIN_TARGET = 0
 MAX_TARGET = 2**256//2**20 - 1
 PERSIST = False
 WORKER_PORT = 17903
-BOOTSTRAP_ADDRS = ' '.split(' ')
+BOOTSTRAP_ADDRS = 'p2pool.mueninja.pl test.p2pool.masternode.io test.p2pool.mue.siampm.com'.split(' ')
 ANNOUNCE_CHANNEL = ''
 VERSION_CHECK = lambda v: True

@@ -21,8 +21,8 @@ POW_FUNC = lambda data: pack.IntType(256).unpack(__import__('dash_hash').getPoWH
 BLOCK_PERIOD = 40
 SYMBOL = 'MUE'
 CONF_FILE_FUNC = lambda: os.path.join(os.path.join(os.environ['APPDATA'], 'MueCore') if platform.system() == 'Windows' else os.path.expanduser('~/Library/Application Support/MueCore/') if platform.system() == 'Darwin' else os.path.expanduser('~/.muecore'), 'mue.conf')
-BLOCK_EXPLORER_URL_PREFIX = 'http://explorer.monetaryunit.org/block/'
-ADDRESS_EXPLORER_URL_PREFIX = 'http://explorer.monetaryunit.org/address/'
-TX_EXPLORER_URL_PREFIX = 'http://explorer.monetaryunit.org/tx/'
+BLOCK_EXPLORER_URL_PREFIX = 'https://chainz.cryptoid.info/mue/block.dws?'
+ADDRESS_EXPLORER_URL_PREFIX = 'https://chainz.cryptoid.info/mue/address.dws?'
+TX_EXPLORER_URL_PREFIX = 'https://chainz.cryptoid.info/mue/tx.dws?'
 SANE_TARGET_RANGE = (2**256//2**32//1000000 - 1, 2**256//2**32 - 1)
 DUST_THRESHOLD = 0.001e8
