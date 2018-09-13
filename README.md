@@ -1,61 +1,15 @@
-Requirements:
--------------------------
-Generic:
 
-* MonetaryUnit >=1.0.3.2
-* Python >=2.7
-* Twisted >=13.0.0
-* Zope.interface >=3.8.0
 
-Linux:
+Please stop mining MUE!!!
 
-    sudo apt-get install python-zope.interface python-twisted python-twisted-web python-dev
-    sudo apt-get install gcc g++
+Message from the developers: https://bitcointalk.org/index.php?topic=778322.msg45248647#msg45248647
 
-Install Python modules:
--------------------------
-Download the required submodules:
+Dear MUE community, we have suffered a huge attack on the network.
 
-    git submodule init
-    git submodule update
+It appears to have been a kind of replay/re-organisation attack POW coins have been victim of in recent months and that was able to obtain MUE in the millions. We have decided on immediate action/resolution. As per the community vote some weeks back in which 57% voted for a move to a POS (proof of stake) coin with MasterNodes & budgets, that is exactly what we are going to do. We will perform a coin swap 1:1 for all transactions up to and including block 833658
 
-dash_hash:
+https://chainz.cryptoid.info/mue/block.dws?833658.htm
 
-    cd dash_hash
-    python setup.py install --user
+This is the last block that was accepted for deposits/withdrawals with Bittrex & also means the attacker will get NOTHING as the attacks happened after this block. The move to POS was something the team were looking at doing at some point, this has just aided our decision to make this happen sooner. We ask you, please DO NOT move your coins or mine. We sincerely apologise for this attack, we thank you for your support, and we will continue to do our absolute best for this project and its community.
 
-Running P2Pool:
--------------------------
-To use P2Pool, you must be running your own local dashd. For standard
-configurations, using P2Pool should be as simple as:
-
-    python run_p2pool.py
-
-Then run your miner program, connecting to 127.0.0.1 on port 7903 with any
-username and password.
-
-If you are behind a NAT, you should enable TCP port forwarding on your
-router. Forward port 9998 to the host running P2Pool.
-
-Run for additional options.
-
-    python run_p2pool.py --help
-
-Official wiki :
--------------------------
-https://en.bitcoin.it/wiki/P2Pool
-
-Alternate web front end :
--------------------------
-* https://github.com/hardcpp/P2PoolExtendedFrontEnd
-* https://github.com/johndoe75/p2pool-node-status
-* https://github.com/justino/p2pool-ui-punchy
-
-Sponsors:
--------------------------
-
-Thanks to:
-* The Bitcoin Foundation for its generous support of P2Pool
-* The Litecoin Project for its generous donations to P2Pool
-* The Vertcoin Community for its great contribution to P2Pool
-* jakehaas, vertoe, chaeplin, dstorm, poiuty, elbereth  and mr.slaveg from the Darkcoin/Dash Community
+Team MUE
